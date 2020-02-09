@@ -1,4 +1,4 @@
-HW #1 - Make your initial using circles - January 28, 2019
+//HW #1 - Make your initial using circles - January 28, 2019
 
 void setup(){
   size (1000, 1000);
