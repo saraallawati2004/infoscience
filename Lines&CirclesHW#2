@@ -1,0 +1,75 @@
+// Circles that have lines connecting to the center
+
+x = 0
+y = 0
+
+//setting up canvas
+def setup():
+    size(1000, 1000)
+    background(255)
+    textAlign(CENTER, CENTER)
+
+//drawing
+def draw():
+    print("")
+
+//for every mouse click
+def mouseClicked():
+    x = mouseX
+    y = mouseY
+    r = random(10,100)
+    myred = random(0,255)
+    myblue = random(0,255)
+    mygreen = random(0,255)
+    fill (myred, mygreen, myblue)
+    
+    //Center is at 500, 500
+    line(500, 500, x, y)
+    circle(x, y, r)
+    fill (0)
+    textSize(r/3)
+    text("RICO", x, y)
+    
+    print(x, y)
+    
+    
+// Circles that connect to each other 
+
+x = 0
+y = 0
+x2 = 0
+y2 = 0
+
+//setting up canvas
+def setup():
+    size(1000, 1000)
+    background(255)
+    textAlign(CENTER, CENTER)
+
+//drawing
+def draw():
+    print("")
+
+//for every mouse click
+def mouseClicked():
+    //global = the variable applies to the entire program - not just the mouse click function
+    global x2, y2, x, y
+    x2 = x
+    y2 = y
+    x = mouseX
+    y = mouseY
+    r = random(10,100)
+    myred = random(0,255)
+    myblue = random(0,255)
+    mygreen = random(0,255)
+    fill (myred, mygreen, myblue)
+    
+    line(x2, y2, x, y)
+    circle(x, y, r)
+    fill (0)
+    textSize(r/3)
+    text("RICO", x, y)
+    
+    print(x, y)
+    
+    
