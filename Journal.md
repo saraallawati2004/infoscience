@@ -11,4 +11,8 @@ Something specific that I learned in that first lesson was what ALgorithm meant 
 3. Questions that you have.
 Not that I can think of right now other than what languages we're going to learn. I did my HW in Java but are we gonna use another language. 
 
-HW = 
+HW = InitialHW#1 file. Rearranged circles to make the letter "S", it started off as calculations then turned into trial and error with the x and y values. 
+
+Feb 4, 2019 
+
+
